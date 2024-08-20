@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Notebooks &mdash; 2022 AI Workshop  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/hacks.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Video Content" href="lecture_videos.html" />
+<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.13.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+<style media="screen">.vega-actions a {margin-right: 5px;}</style>
+<link href="../_static/css/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #F2F2F2" >
+          
+<a href="https://simcenter.designsafe-ci.org/" style="margin-bottom: 0px;">
+  <img src="../_static/SimCenter-Only.png" class="logo" alt="Org-Logo" />
+</a>
+<hr style="margin: 0px;">
+
+  <a href="../index.html">
+
+
+
+  
+  <img src="../_static/logo.png" class="logo" alt="Logo"/>
+
+</a>
+
+
+  
+  
+
+
+
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="presenters.html">Presenters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="syllabus.html">Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lecture_videos.html">Video Content</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Notebooks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#day-3-image-classification">Day 3: Image Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-4-semantic-segmentation">Day 4: Semantic Segmentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-5-inventory-generation-with-brails">Day 5: Inventory Generation with BRAILS</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">2022 AI Workshop</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Notebooks</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="notebooks">
+<h1>Notebooks<a class="headerlink" href="#notebooks" title="Permalink to this headline">¶</a></h1>
+<p>The following sets of links can be used to access the exercise files in three different ways.</p>
+<ol class="arabic simple">
+<li><p><strong>Find and download the exercise file on GitHub:</strong> The first link will open the exercise file on GitHub. From here, you can download the files and run them on DesignSafe, your locally installed Jupyter server, or view the rendered notebooks along with their source code and results.</p></li>
+<li><p><strong>Open the exercise file on Google Colab:</strong> The second link will open the notebook on Google Colab platform. If you have a Google account, you can use this service to run the exercises directly from your browser free of charge. This option does not require a separate installation of Jupyter tools. The code will be executed on Google’s servers.</p></li>
+<li><p><strong>Open the exercise file on Binder:</strong> The final link opens the notebook in Binder. This service is similar to Colab in that it allows users to execute notebooks from their browsers free of charge. The primary difference of this service is it requires absolutely no account registration. This option also provides a more familiar experience for working with notebooks than that of Colab, as the user interface is nearly identical to a local Jupyter server.</p></li>
+</ol>
+<p>To learn more about these options, visit the <a class="reference internal" href="colab.html#tools"><span class="std std-ref">Tools</span></a> page.</p>
+<div class="section" id="day-3-image-classification">
+<h2>Day 3: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day3/MLTraining2022_ImageClassification.pdf">Image Classification</a><a class="headerlink" href="#day-3-image-classification" title="Permalink to this headline">¶</a></h2>
+<ol>
+
+  <li><b> Training a Building Damage Classifier using BRAILS</b>
+
+  <ul>
+  <li><a href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/tree/master/notebooks/day3/BRAILS_TransferLearning.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day3/BRAILS_TransferLearning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+  <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/HEAD?filepath=notebooks/day3/BRAILS_TransferLearning.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+  </ul>
+  </li></div>
+<div class="section" id="day-4-semantic-segmentation">
+<h2>Day 4: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/master/presentations/day4/ImageSegmentation.pdf">Semantic Segmentation</a><a class="headerlink" href="#day-4-semantic-segmentation" title="Permalink to this headline">¶</a></h2>
+<ol>
+
+<li><b> Crack Segmentation</b>
+
+  <ul>
+  <li><a href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/tree/master/notebooks/day4/BRAILS_CrackSegmentation.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day4/BRAILS_CrackSegmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+  <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/HEAD?filepath=notebooks/day4/BRAILS_CrackSegmentation.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+  </ul>
+</li>
+
+
+<li><b> Facade Segmentation</b>
+
+  <ul>
+  <li><a href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/tree/master/notebooks/day4/BRAILS_FacadeSegmentation.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day4/BRAILS_FacadeSegmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+  <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/HEAD?filepath=notebooks/day4/BRAILS_FacadeSegmentation.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+  </ul>
+</li>
+
+</ol></div>
+<div class="section" id="day-5-inventory-generation-with-brails">
+<h2>Day 5: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day5/MLTraining2022_BRAILS.pdf">Inventory Generation with BRAILS</a><a class="headerlink" href="#day-5-inventory-generation-with-brails" title="Permalink to this headline">¶</a></h2>
+<ol>
+
+  <li><b> Regional-Level Inventory Generation Using BRAILS</b>
+
+  <ul>
+  <li><a href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/tree/master/notebooks/day5/BRAILS_InventoryGenerator.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day5/BRAILS_InventoryGenerator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+  <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/HEAD?filepath=notebooks/day5/BRAILS_InventoryGenerator.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+  </ul>
+  </li></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2022 NHERI-SimCenter.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    
+
+  <style>
+         .wy-nav-content { max-width: none; }
+  </style>
+
+<script>
+    /*
+    let selectedFilters = [];
+    const images  = document.getElementsByClassName("gallery-item");
+    const filters = [...document.querySelectorAll('.filter select')];
+    const toggles = [...document.querySelectorAll('.filter input')];
+
+    var show = function (elem) {
+        elem.style.display = 'block';
+    };
+    var hide = function (elem) {
+        elem.style.display = 'none';
+    };
+    var toggleFilter =  function(el,elid) {
+        const filter = document.getElementById(elid);
+        filter.disabled = !el.checked;
+       
+        if ("createEvent" in document) {
+            var evt = document.createEvent("HTMLEvents");
+            evt.initEvent("change", false, true);
+            filter.dispatchEvent(evt);
+        }
+        else
+            filter.fireEvent("change");
+    };
+    
+    for (const filter of filters) {
+        filter.addEventListener('change', function(event) {
+            selectedFilters = filters.map(filter => filter.disabled ? '' : filter.value).filter(Boolean);
+            console.log(selectedFilters);
+            for (const image of images) {
+                if (selectedFilters.every(filter => image.classList.contains(filter))) {
+                    show(image);
+                }
+                else {hide(image)};
+            };
+        })
+    };
+    */
+</script>
+
+
+</body>
+</html>
