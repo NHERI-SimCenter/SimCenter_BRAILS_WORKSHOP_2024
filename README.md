@@ -1,4 +1,4 @@
-Machine Learning Training for Natural Hazards Engineering 2022
-===============================================================
+Using BRAILS for Computer Vision Applications in Natural Hazards Engineering
+============================================================================
 
-You can find the course outline and links to lessons on [https://nheri-simcenter.github.io/MachineLearningTraining_2022/](https://nheri-simcenter.github.io/SimCenter_DesignSafe_ML_2022/)
+You can find the course outline and links to lessons on [https://nheri-simcenter.github.io/MachineLearningTraining_2024/](https://nheri-simcenter.github.io/SimCenter_DesignSafe_ML_2024/)

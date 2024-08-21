@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '2021 AI Workshop'
-copyright = '2022 NHERI-SimCenter'
+project = '2024 BRAILS Workshop'
+copyright = '2024 NHERI-SimCenter'
 author = 'Frank McKenna, Barbaros Cetiner'
 
 rst_prolog = """
