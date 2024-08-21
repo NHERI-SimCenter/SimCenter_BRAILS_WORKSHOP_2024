@@ -23,4 +23,9 @@ Day 2: Vision foundation models
 Day 3: Using BRAILS for inventory generation and damage detection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   #. To run the demo on Day 3, you need to get a Google Maps API key before the class. Follow the instructions: "Using API Keys" in `this link <https://developers.google.com/maps/documentation/embed/get-api-key>`_. 
+.. warning::
+
+   To run the demo on Day 3, you need to get a Google Maps API key before the class. To generate your API key:
+   
+   1. Please visit `this page <https://developers.google.com/maps/documentation/embed/get-api-key>`_,
+   2. Follow the instructions under "Using API Keys". 

@@ -20,9 +20,7 @@ ith no or little Python experience should review the Python quick start material
 
    source/presenters	     
    source/syllabus
-   source/lecture_videos
    source/jupyterNotebooks
-   source/git
 
 .. note::
    
