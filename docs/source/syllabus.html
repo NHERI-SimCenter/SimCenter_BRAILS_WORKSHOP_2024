@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Syllabus &mdash; 2022 AI Workshop  documentation</title>
+  <title>Syllabus &mdash; 2024 BRAILS Workshop  documentation</title>
   
 
   
@@ -36,6 +36,7 @@
         <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
@@ -43,7 +44,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Video Content" href="lecture_videos.html" />
+    <link rel="next" title="Notebooks" href="jupyterNotebooks.html" />
     <link rel="prev" title="Presenters" href="presenters.html" />
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.13.1"></script>
@@ -105,14 +106,11 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="presenters.html">Presenters</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Syllabus</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#day-1-ml-in-earthquake-engineering-opportunities-and-challenges">Day 1: ML in Earthquake Engineering: Opportunities and Challenges</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#day-2-explainable-ai-in-earthquake-engineering">Day 2: Explainable AI in Earthquake Engineering</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#day-3-image-classification">Day 3: Image Classification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#day-4-semantic-segmentation">Day 4: Semantic Segmentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#day-5-inventory-generation-with-brails">Day 5: Inventory Generation with BRAILS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-1-image-classification-detection-segmentation">Day 1: Image classification, detection, segmentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-2-vision-foundation-models">Day 2: Vision foundation models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-3-using-brails-for-inventory-generation-and-damage-detection">Day 3: Using BRAILS for inventory generation and damage detection</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="lecture_videos.html">Video Content</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jupyterNotebooks.html">Notebooks</a></li>
 </ul>
 
@@ -129,7 +127,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">2022 AI Workshop</a>
+          <a href="../index.html">2024 BRAILS Workshop</a>
         
       </nav>
 
@@ -180,128 +178,36 @@
            <div itemprop="articleBody">
             
   <div class="section" id="syllabus">
-<h1>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this headline">¶</a></h1>
-<p>Welcome to this Training Workshop on the application of ML to natural hazards engineering. This year’s offering will be in an online format. A drawback of an online offering is the lack of interaction among the participants, so we encourage you to be active during the live sessions with questions.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The training for days 3 through 5 is organized as a series of pre-recorded video lectures and live online conferencing (Zoom). The lessons and videos for these days are provided in the expanded syllabus for these days given below.</p>
-</div>
-<div class="section" id="day-1-ml-in-earthquake-engineering-opportunities-and-challenges">
-<h2>Day 1: ML in Earthquake Engineering: Opportunities and Challenges<a class="headerlink" href="#day-1-ml-in-earthquake-engineering-opportunities-and-challenges" title="Permalink to this headline">¶</a></h2>
+<h1>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this heading">¶</a></h1>
+<p>Welcome to this Training Workshop on using BRAILS++. This year’s offering will be in an online format. A drawback of an online offering is the lack of interaction among the participants, so we encourage you to be active during the live sessions with questions.</p>
+<div class="section" id="day-1-image-classification-detection-segmentation">
+<h2>Day 1: Image classification, detection, segmentation<a class="headerlink" href="#day-1-image-classification-detection-segmentation" title="Permalink to this heading">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><dl class="simple">
 <dt>In-class presentations</dt><dd><ul>
-<li><p>Introduction: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day1/ML_WorkshopIntro.pdf">Slides</a></p></li>
-<li><p>Machine Learning in Infrastructure Risk and Resilience Assessment - A Constructive Critique: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day1/MachineLearningInInfrastructureRiskAndResilienceAssessmentBurton.pdf">Slides</a></p></li>
+<li><p>Overview of Computer Vision Applications for Natural Hazards: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day1/ML_WorkshopIntro.pdf">Slides</a></p></li>
+<li><p>Brief introduction to image classification, detection, segmentation: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day1/IntroComputerVision.pdf">Slides</a></p></li>
 </ul>
 </dd>
 </dl>
 </li>
+<li><p>Demo
+* Training a Building Damage Classifier Using BRAILS: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearning.ipynb">Jupyter Notebook</a></p></li>
 </ul>
 </div></blockquote>
 </div>
-<div class="section" id="day-2-explainable-ai-in-earthquake-engineering">
-<h2>Day 2: Explainable AI in Earthquake Engineering<a class="headerlink" href="#day-2-explainable-ai-in-earthquake-engineering" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>In-class presentation</dt><dd><ul>
-<li><p>Can we trust AI?: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day2/2022-XAI-Earthquake-Engineering-Workshop.pdf">Slides</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Demo</dt><dd><ul>
-<li><p>XAI for liquefaction: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day2/xai.ipynb">Jupyter Notebook</a></p></li>
-<li><p>Data: <a class="reference external" href="https://raw.githubusercontent.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/main/notebooks/day2/RF_YN_Model3.csv">YN Liquefaction</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
+<div class="section" id="day-2-vision-foundation-models">
+<h2>Day 2: Vision foundation models<a class="headerlink" href="#day-2-vision-foundation-models" title="Permalink to this heading">¶</a></h2>
 </div>
-<div class="section" id="day-3-image-classification">
-<h2>Day 3: Image Classification<a class="headerlink" href="#day-3-image-classification" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>Pre-class content</dt><dd><ul>
-<li><p>Multi-Layer Perceptron: <a class="reference external" href="https://youtu.be/8PNMJRHAWFk">Video</a></p></li>
-<li><p>Convolutional Neural Networks: <a class="reference external" href="https://youtu.be/oEIdAsVVhvw">Video</a></p></li>
-<li><p>Attention Networks: <a class="reference external" href="https://youtu.be/W4uqA9rwcKk">Video</a></p></li>
-<li><p>Transformers: <a class="reference external" href="https://youtu.be/XM9R2H_Sw_I">Video</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>In-class presentation</dt><dd><ul>
-<li><p>Image Classification: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day3/MLTraining2022_ImageClassification.pdf">Slides</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Demo</dt><dd><ul>
-<li><p>Training a Building Damage Classifier Using BRAILS: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day3/BRAILS_TransferLearning.ipynb">Jupyter Notebook</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="day-4-semantic-segmentation">
-<h2>Day 4: Semantic Segmentation<a class="headerlink" href="#day-4-semantic-segmentation" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>Pre-class content</dt><dd><ul>
-<li><p>An Overview of Image Segmentation Algorithms: <a class="reference external" href="https://youtu.be/igr2S0RIsSc">Video</a></p></li>
-<li><p>State of the Art Image Segmentation Algorithms, Segmentation Datasets: <a class="reference external" href="https://youtu.be/veqr3TZfrDg">Video</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Demos</dt><dd><ul>
-<li><p>Training a Binary Crack Segmentation Model Using BRAILS: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day4/BRAILS_CrackSegmentation.ipynb">Jupyter Notebook</a></p></li>
-<li><p>Training a Multi-Class Facade Segmentation Model Using BRAILS: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day4/BRAILS_FacadeSegmentation.ipynb">Jupyter Notebook</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="day-5-inventory-generation-with-brails">
-<h2>Day 5: Inventory Generation with BRAILS<a class="headerlink" href="#day-5-inventory-generation-with-brails" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>In-class content</dt><dd><ul>
-<li><p>Introduction to BRAILS’ Inventory Generation Capabilities: <a class="reference external" href="https://github.com/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/presentations/day5/MLTraining2022_BRAILS.pdf">Slides</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Demo</dt><dd><ul>
-<li><p>Regional-Level Inventory Generation Using BRAILS: <a class="reference external" href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_DesignSafe_ML_2022/blob/main/notebooks/day5/BRAILS_InventoryGenerator.ipynb">Jupyter Notebook</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
+<div class="section" id="day-3-using-brails-for-inventory-generation-and-damage-detection">
+<h2>Day 3: Using BRAILS for inventory generation and damage detection<a class="headerlink" href="#day-3-using-brails-for-inventory-generation-and-damage-detection" title="Permalink to this heading">¶</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
+<p>To run the demo on Day 3, you need to get a Google Maps API key before the class. To generate your API key:</p>
 <ol class="arabic simple">
-<li><p>Videos must be watched before the online class sessions for days 3 and 4. On days 3 and 4, we will spend our live sessions mostly doing hands-on demos, questions, and discussion. These demos are only effective if you do your self-study assignment of watching the videos before we meet.</p></li>
-<li><p>To run the demo on Day 5, you need to get a Google Maps API key before the class. Follow the instructions: “Using API Keys” in <a class="reference external" href="https://developers.google.com/maps/documentation/embed/get-api-key">this link</a>.</p></li>
+<li><p>Please visit <a class="reference external" href="https://developers.google.com/maps/documentation/embed/get-api-key">this page</a>,</p></li>
+<li><p>Follow the instructions under “Using API Keys”.</p></li>
 </ol>
 </div>
 </div>
@@ -317,7 +223,7 @@
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2022 NHERI-SimCenter.
+        &#169; Copyright 2024 NHERI-SimCenter.
 
     </p>
   </div>
