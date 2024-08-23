@@ -14,14 +14,28 @@ Day 1: Image classification, detection, segmentation
      * Brief introduction to image classification, detection, segmentation: `Slides <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day1/IntroComputerVision.pdf>`_  
      
   * Demo
+  
     * Training a Building Damage Classifier Using BRAILS: `Jupyter Notebook <https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearning.ipynb>`_   
      
 Day 2: Vision foundation models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * In-class presentation
+     * Vision Language Models: `Slides <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day2/LargeVisionLanguageModels.pdf>`_
+     
+  * Demos
+  
+    * Using CLIP for Zero-Shot Image Classification: `Jupyter Notebook <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/CLIP_ZeroShotClassification.ipynb>`_ 
+    * Using CLIP for Zero-Shot Image Classification: `Jupyter Notebook <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/GroundedSAM_ZeroShotSegmentation.ipynb>`_ 
+    
+  * Hands-on activity
+  
+    * Distilling a segmentation model from GroundedSAM: `Jupyter Notebook <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/DistillingGroundedSAM.ipynb>`_  
 
 Day 3: Using BRAILS for inventory generation and damage detection
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * In-class presentation
+     * Using BRAILS for inventory generation and damage detection: `Slides <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day3/BRAILS_NHECapabilities.pdf>`_
+
 
 .. warning::
 
