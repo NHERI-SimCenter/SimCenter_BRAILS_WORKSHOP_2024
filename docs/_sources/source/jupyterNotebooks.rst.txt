@@ -21,18 +21,51 @@ Day 1: `Image classification, detection, segmentation <https://github.com/NHERI-
      <li><b> Training a Building Damage Classifier using BRAILS</b>
 
      <ul>
-     <li><a href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/tree/master/notebooks/BRAILS_TransferLearning.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
-     <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/HEAD?filepath=notebooks/BRAILS_TransferLearning.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+     <li><a href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearningExample.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearningExample.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+     <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/BRAILS_TransferLearningExample.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
      </ul>
      </li>
 
 
 
 
-Day 2: `Vision foundation models`
+Day 2: `Vision foundation models <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day2/LargeVisionLanguageModels.pdf>`_
 =============================
    
+.. raw:: html
+	    
+   <ol>
    
-Day 3: `Using BRAILS for inventory generation and damage detection`
-====================================
+     <li><b> Using CLIP for Zero-Shot Image Classification</b>
+
+     <ul>
+     <li><a href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/CLIP_ZeroShotClassification.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/CLIP_ZeroShotClassification.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+     <li><a href="https://mybinder.org/v2/gh/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/CLIP_ZeroShotClassification.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+     </ul>
+     </li>
+     
+.. raw:: html
+   
+     <li><b> Using Grounding Dino for Zero-Shot Image Segmentation</b>
+
+     <ul>
+     <li><a href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/GroundedSAM_ZeroShotSegmentation.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/GroundedSAM_ZeroShotSegmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+     <li><a href="NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/GroundedSAM_ZeroShotSegmentation.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+     </ul>
+     </li>      
+     
+.. raw:: html
+   
+     <li><b> Distilling GroundedSAM for Building Segmentation
+
+     <ul>
+     <li><a href="https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/DistillingGroundedSAM.ipynb"><img src="https://img.shields.io/github/forks/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024?label=Github&style=social" alt="Open in Github"/></a></li><li><a href="https://colab.research.google.com/github/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/DistillingGroundedSAM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a></li>
+     <li><a href="NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/notebooks/DistillingGroundedSAM.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"/></a></li>
+     </ul>
+     </li>  
+            
+   
+Day 3: `Using BRAILS for inventory generation and damage detection <https://github.com/NHERI-SimCenter/SimCenter_BRAILS_WORKSHOP_2024/blob/main/presentations/day3/BRAILS_NHECapabilities.pdf>`_
+=================================================================================================
+
 
